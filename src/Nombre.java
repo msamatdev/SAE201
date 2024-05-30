@@ -1,13 +1,13 @@
-public class Nombre {
+public class Nombre extends Expression {
 
-    private int valeurNombre;
+    private double valeurNombre;
 
-    public Nombre(int valeurNombre) {
-        this.valeurNombre = valeurNombre;
+    public Nombre(double uneValeur) {
+        this.valeurNombre = uneValeur;
     }
 
 
-    public int valeur() {
+    public double valeur() {
         return this.valeurNombre;
     }
 
