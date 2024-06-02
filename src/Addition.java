@@ -1,14 +1,14 @@
 public class Addition extends Operation {
 
-    public Addition(Nombre operande1, Nombre operande2) {
+    public Addition(Expression operande1, Expression operande2) {
         super(operande1, operande2);
     }
     
-    public int valeur() {
+    public double valeur() {
         return super.getOperande1().valeur() + super.getOperande2().valeur();
     }
 
     public String toString() {
-        return super.getOperande1().valeur() + " + " + super.getOperande2().valeur() + " = " + this.valeur();
+        return "(" + this.getOperande1() + ")" + " + " + "(" + this.getOperande2() + ")";
     }
 }

@@ -13,7 +13,7 @@ public class Nombre extends Expression {
 
     @Override
     public String toString() {
-        return "Nombre: " + this.valeurNombre;
+        return this.valeurNombre + "";
     }
 
 }
