@@ -9,6 +9,6 @@ public class Addition extends Operation {
     }
 
     public String toString() {
-        return "(" + this.getOperande1() + ")" + " + " + "(" + this.getOperande2() + ")";
+        return "(" + this.getOperande1()  + " + " + this.getOperande2() + ")";
     }
 }
